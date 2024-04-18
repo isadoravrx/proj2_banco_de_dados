@@ -1,41 +1,41 @@
 /* projeto_logico: */
 
 CREATE TABLE braile (
-    fk_livro_id_livro INTEGER,
+    fk_livro_id_livro int,
     fk_livro_fk_produto_id int,
     PRIMARY KEY (fk_livro_id_livro, fk_livro_fk_produto_id)
 );
 
 CREATE TABLE servico (
-    id_servico INTEGER PRIMARY KEY,
-    tipo_servico VARCHAR,
-    taxa_servico INTEGER
+    id_servico int PRIMARY KEY,
+    tipo_servico varchar,
+    taxa_servico int
 );
 
 CREATE TABLE audiobook (
-    fk_livro_id_livro INTEGER,
+    fk_livro_id_livro int,
     fk_livro_fk_produto_id int,
     PRIMARY KEY (fk_livro_id_livro, fk_livro_fk_produto_id)
 );
 
 CREATE TABLE venda (
-    cupom_desconto INTEGER,
-    metodo_pagamento VARCHAR,
-    endereco_entrega VARCHAR,
-    valor_produto DOUBLE,
-    id_produto INTEGER PRIMARY KEY,
+    cupom_desconto int,
+    metodo_pagamento varchar,
+    endereco_entrega varchar,
+    valor_produto real,
+    id_produto int PRIMARY KEY,
     fk_vendedor_fk_pessoa_id int
 );
 
 CREATE TABLE ebook (
-    fk_livro_id_livro INTEGER,
+    fk_livro_id_livro int,
     fk_livro_fk_produto_id int,
     fk_cliente_fk_pessoa_id int,
     PRIMARY KEY (fk_livro_id_livro, fk_livro_fk_produto_id)
 );
 
 CREATE TABLE livro_fisico (
-    fk_livro_id_livro INTEGER,
+    fk_livro_id_livro int,
     fk_livro_fk_produto_id int,
     PRIMARY KEY (fk_livro_id_livro, fk_livro_fk_produto_id)
 );
@@ -50,18 +50,19 @@ CREATE TABLE cadastro (
 CREATE TABLE palestra_debate (
     horario time,
     lotacao int,
-    taxa_ingresso double,
+    taxa_ingresso real,
     id_evento int PRIMARY KEY,
     sala varchar,
     livro_tema varchar
 );
 
 CREATE TABLE livro (
-    nome_livro varchar,
+    nome_livro vrachar,
     ano_publicacao int,
     qtd_exemplares int,
-    id_livro INTEGER,
+    id_livro int,
     fk_produto_id int,
+    fk_servico_id_servico int,
     fk_categoria_id int,
     fk_editora_nome varchar,
     PRIMARY KEY (id_livro, fk_produto_id)
@@ -76,8 +77,8 @@ CREATE TABLE categoria (
 CREATE TABLE avaliacao (
     id_avaliacao int PRIMARY KEY,
     comentario varchar,
-    nota double,
-    fk_livro_id_livro INTEGER,
+    nota real,
+    fk_livro_id_livro int,
     fk_livro_fk_produto_id int,
     fk_pessoa_id int
 );
@@ -93,7 +94,7 @@ CREATE TABLE instituicao (
 
 CREATE TABLE vendedor (
     regime_trabalho varchar,
-    salario double,
+    salario real,
     fk_pessoa_id int PRIMARY KEY
 );
 
@@ -107,9 +108,9 @@ CREATE TABLE editora (
 );
 
 CREATE TABLE Trasportador_escolar (
-    Responsavel_do_veiculo VARCHAR,
-    Numero_da_placa VARCHAR,
-    Quantidade_de_alunos INTEGER,
+    Responsavel_do_veiculo varchar,
+    Numero_da_placa varchar,
+    Quantidade_de_alunos int,
     fk_pessoa_id int,
     PRIMARY KEY (Numero_da_placa, fk_pessoa_id)
 );
@@ -140,19 +141,19 @@ CREATE TABLE pessoa (
     idade int,
     CPF varchar,
     RG varchar,
-    fk_Funcionario_da_saude_registro_do_conselho_regional INTEGER,
-    fk_Funcionario_da_saude_Profissao VARCHAR,
-    fk_Funcionario_da_saude_fk_Funcionario_n__do_pis INTEGER,
-    fk_Funcionario_da_saude_fk_Funcionario_conta_bancaria INTEGER,
+    fk_Funcionario_da_saude_registro_do_conselho_regional int,
+    fk_Funcionario_da_saude_Profissao varchar,
+    fk_Funcionario_da_saude_fk_Funcionario_n__do_pis int,
+    fk_Funcionario_da_saude_fk_Funcionario_conta_bancaria int,
     fk_Funcionario_da_saude_fk_Funcionario_fk_pessoa_id int,
     fk_recompensa_id_recompensa int
 );
 
 CREATE TABLE Funcionario_da_saude (
-    registro_do_conselho_regional INTEGER,
-    Profissao VARCHAR,
-    fk_Funcionario_n__do_pis INTEGER,
-    fk_Funcionario_conta_bancaria INTEGER,
+    registro_do_conselho_regional int,
+    Profissao varchar,
+    fk_Funcionario_n__do_pis int,
+    fk_Funcionario_conta_bancaria int,
     fk_Funcionario_fk_pessoa_id int,
     PRIMARY KEY (registro_do_conselho_regional, Profissao, fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
 );
@@ -168,9 +169,9 @@ CREATE TABLE recompensa (
 );
 
 CREATE TABLE Funcionario_administrativo (
-    registro_cfa INTEGER,
-    fk_Funcionario_n__do_pis INTEGER,
-    fk_Funcionario_conta_bancaria INTEGER,
+    registro_cfa int,
+    fk_Funcionario_n__do_pis int,
+    fk_Funcionario_conta_bancaria int,
     fk_Funcionario_fk_pessoa_id int,
     fk_Departamento_nome_do_departamento varchar,
     PRIMARY KEY (registro_cfa, fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
@@ -178,21 +179,21 @@ CREATE TABLE Funcionario_administrativo (
 
 CREATE TABLE Professor (
     carteira_de_identificacao_do_professor INTEGER,
-    fk_Funcionario_n__do_pis INTEGER,
-    fk_Funcionario_conta_bancaria INTEGER,
+    fk_Funcionario_n__do_pis int,
+    fk_Funcionario_conta_bancaria int,
     fk_Funcionario_fk_pessoa_id int,
     PRIMARY KEY (carteira_de_identificacao_do_professor, fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
 );
 
 CREATE TABLE Funcionario (
-    n__do_pis INTEGER,
-    conta_bancaria INTEGER,
+    n__do_pis int,
+    conta_bancaria int,
     fk_pessoa_id int,
     PRIMARY KEY (n__do_pis, conta_bancaria, fk_pessoa_id)
 );
 
 CREATE TABLE Responsavel_financeiro (
-    conta_bancaria INTEGER,
+    conta_bancaria int,
     fk_pessoa_id int,
     PRIMARY KEY (conta_bancaria, fk_pessoa_id)
 );
@@ -201,8 +202,8 @@ CREATE TABLE Disciplina (
     nome_da__discplina varchar PRIMARY KEY,
     Carga_horaria int,
     fk_Professor_carteira_de_identificacao_do_professor INTEGER,
-    fk_Professor_fk_Funcionario_n__do_pis INTEGER,
-    fk_Professor_fk_Funcionario_conta_bancaria INTEGER,
+    fk_Professor_fk_Funcionario_n__do_pis int,
+    fk_Professor_fk_Funcionario_conta_bancaria int,
     fk_Professor_fk_Funcionario_fk_pessoa_id int,
     fk_segmento_Nome_do_segmento varchar
 );
@@ -216,7 +217,7 @@ CREATE TABLE EAD (
 );
 
 CREATE TABLE presencial (
-    senha_catraca INTEGER,
+    senha_catraca int,
     fk_Aluno_id_da_matricula int,
     fk_Aluno_fk_pessoa_id int,
     PRIMARY KEY (senha_catraca, fk_Aluno_id_da_matricula, fk_Aluno_fk_pessoa_id)
@@ -231,15 +232,15 @@ CREATE TABLE Aluno (
     Turno varchar,
     Turma char,
     id_da_matricula int,
-    saldo_da_cantina double,
+    saldo_da_cantina real,
     email varchar,
     serie varchar,
     telefone varchar,
     NOME varchar,
     fk_pessoa_id int,
-    fk_Trasportador_escolar_Numero_da_placa VARCHAR,
+    fk_Trasportador_escolar_Numero_da_placa varchar,
     fk_Trasportador_escolar_fk_pessoa_id int,
-    fk_Responsavel_financeiro_conta_bancaria INTEGER,
+    fk_Responsavel_financeiro_conta_bancaria int,
     fk_Responsavel_financeiro_fk_pessoa_id int,
     fk_segmento_Nome_do_segmento varchar,
     fk_lista_materiais_serie varchar,
@@ -248,7 +249,7 @@ CREATE TABLE Aluno (
 
 CREATE TABLE Produtos_cantina (
     nome_produto varchar PRIMARY KEY,
-    preco double
+    preco real
 );
 
 CREATE TABLE material_papelaria (
@@ -260,8 +261,8 @@ CREATE TABLE material_papelaria (
 
 CREATE TABLE produto (
     id int PRIMARY KEY,
-    preco double,
-    fk_venda_id_produto INTEGER
+    preco real,
+    fk_venda_id_produto int
 );
 
 CREATE TABLE empresa (
@@ -275,26 +276,14 @@ CREATE TABLE lista_materiais (
     serie varchar PRIMARY KEY
 );
 
-CREATE TABLE pertence_a (
-    fk_braile_fk_livro_id_livro INTEGER,
-    fk_braile_fk_livro_fk_produto_id int,
-    fk_servico_id_servico INTEGER
-);
-
-CREATE TABLE pertence_a (
-    fk_livro_fisico_fk_livro_id_livro INTEGER,
-    fk_livro_fisico_fk_livro_fk_produto_id int,
-    fk_servico_id_servico INTEGER
-);
-
 CREATE TABLE promove (
     fk_instituicao_cnpj varchar,
     fk_palestra_debate_id_evento int
 );
 
 CREATE TABLE produz (
-    fk_autor_ide_autor int,
-    fk_livro_id_livro INTEGER,
+    fk_autor_id_autor int,
+    fk_livro_id_livro int,
     fk_livro_fk_produto_id int
 );
 
@@ -307,8 +296,8 @@ CREATE TABLE e_ensinado_por (
     fk_Aluno_id_da_matricula int,
     fk_Aluno_fk_pessoa_id int,
     fk_Professor_carteira_de_identificacao_do_professor INTEGER,
-    fk_Professor_fk_Funcionario_n__do_pis INTEGER,
-    fk_Professor_fk_Funcionario_conta_bancaria INTEGER,
+    fk_Professor_fk_Funcionario_n__do_pis int,
+    fk_Professor_fk_Funcionario_conta_bancaria int,
     fk_Professor_fk_Funcionario_fk_pessoa_id int
 );
 
@@ -317,7 +306,7 @@ CREATE TABLE estuda__Disciplina_EAD_presencial (
     fk_EAD_senha varchar,
     fk_EAD_FK_Aluno_id_da_matricula int,
     fk_EAD_FK_Aluno_fk_pessoa_id int,
-    fk_presencial_senha_catraca INTEGER,
+    fk_presencial_senha_catraca int,
     fk_presencial_fk_Aluno_id_da_matricula int,
     fk_presencial_fk_Aluno_fk_pessoa_id int
 );
@@ -378,11 +367,16 @@ ALTER TABLE livro ADD CONSTRAINT FK_livro_2
     ON DELETE CASCADE;
  
 ALTER TABLE livro ADD CONSTRAINT FK_livro_3
+    FOREIGN KEY (fk_servico_id_servico)
+    REFERENCES servico (id_servico)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE livro ADD CONSTRAINT FK_livro_4
     FOREIGN KEY (fk_categoria_id)
     REFERENCES categoria (id)
     ON DELETE RESTRICT;
  
-ALTER TABLE livro ADD CONSTRAINT FK_livro_4
+ALTER TABLE livro ADD CONSTRAINT FK_livro_5
     FOREIGN KEY (fk_editora_nome)
     REFERENCES editora (nome)
     ON DELETE RESTRICT;
@@ -517,26 +511,6 @@ ALTER TABLE produto ADD CONSTRAINT FK_produto_2
     REFERENCES venda (id_produto)
     ON DELETE RESTRICT;
  
-ALTER TABLE pertence_a ADD CONSTRAINT FK_pertence_a_1
-    FOREIGN KEY (fk_braile_fk_livro_id_livro, fk_braile_fk_livro_fk_produto_id)
-    REFERENCES braile (fk_livro_id_livro, fk_livro_fk_produto_id)
-    ON DELETE RESTRICT;
- 
-ALTER TABLE pertence_a ADD CONSTRAINT FK_pertence_a_2
-    FOREIGN KEY (fk_servico_id_servico)
-    REFERENCES servico (id_servico)
-    ON DELETE SET NULL;
- 
-ALTER TABLE pertence_a ADD CONSTRAINT FK_pertence_a_1
-    FOREIGN KEY (fk_livro_fisico_fk_livro_id_livro, fk_livro_fisico_fk_livro_fk_produto_id)
-    REFERENCES livro_fisico (fk_livro_id_livro, fk_livro_fk_produto_id)
-    ON DELETE RESTRICT;
- 
-ALTER TABLE pertence_a ADD CONSTRAINT FK_pertence_a_2
-    FOREIGN KEY (fk_servico_id_servico)
-    REFERENCES servico (id_servico)
-    ON DELETE SET NULL;
- 
 ALTER TABLE promove ADD CONSTRAINT FK_promove_1
     FOREIGN KEY (fk_instituicao_cnpj)
     REFERENCES instituicao (cnpj)
@@ -548,7 +522,7 @@ ALTER TABLE promove ADD CONSTRAINT FK_promove_2
     ON DELETE SET NULL;
  
 ALTER TABLE produz ADD CONSTRAINT FK_produz_1
-    FOREIGN KEY (fk_autor_ide_autor)
+    FOREIGN KEY (fk_autor_id_autor)
     REFERENCES autor (id_autor)
     ON DELETE RESTRICT;
  
