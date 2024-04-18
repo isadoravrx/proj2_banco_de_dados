@@ -57,7 +57,7 @@ CREATE TABLE palestra_debate (
 );
 
 CREATE TABLE livro (
-    nome_livro vrachar,
+    nome_livro varchar,
     ano_publicacao int,
     qtd_exemplares int,
     id_livro int,
