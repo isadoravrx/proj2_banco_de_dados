@@ -21,10 +21,11 @@ CREATE TABLE audiobook (
 CREATE TABLE venda (
     cupom_desconto int,
     metodo_pagamento varchar,
-    endereco_entrega varchar,
     valor_produto real,
     id_venda int PRIMARY KEY,
-    fk_vendedor_fk_pessoa_id int
+    valor_total real,
+    fk_vendedor_fk_pessoa_id int,
+    fk_cliente_fk_pessoa_id int
 );
 
 CREATE TABLE ebook (
@@ -63,12 +64,12 @@ CREATE TABLE livro (
     id_livro int,
     fk_produto_id int,
     fk_servico_id_servico int,
-    fk_categoria_id int,
+    fk_categoria_estante_id int,
     fk_editora_nome varchar,
     PRIMARY KEY (id_livro, fk_produto_id)
 );
 
-CREATE TABLE categoria (
+CREATE TABLE categoria_estante (
     nome varchar,
     id int PRIMARY KEY,
     endereco_sessao varchar
@@ -261,7 +262,9 @@ CREATE TABLE material_papelaria (
 
 CREATE TABLE produto (
     id int PRIMARY KEY,
-    preco real
+    preco real,
+    nome_produto varchar,
+    fk_categoria_produto_id int
 );
 
 CREATE TABLE empresa (
@@ -275,9 +278,16 @@ CREATE TABLE lista_materiais (
     serie varchar PRIMARY KEY
 );
 
+CREATE TABLE categoria_produto (
+    id int PRIMARY KEY,
+    nome varchar,
+    endereco_estante varchar
+);
+
 CREATE TABLE contem (
     fk_venda_id_venda int,
-    fk_produto_id int
+    fk_produto_id int,
+    quantidade_produtos int
 );
 
 CREATE TABLE promove (
@@ -345,6 +355,11 @@ ALTER TABLE venda ADD CONSTRAINT FK_venda_2
     REFERENCES vendedor (fk_pessoa_id)
     ON DELETE RESTRICT;
  
+ALTER TABLE venda ADD CONSTRAINT FK_venda_3
+    FOREIGN KEY (fk_cliente_fk_pessoa_id)
+    REFERENCES cliente (fk_pessoa_id)
+    ON DELETE CASCADE;
+ 
 ALTER TABLE ebook ADD CONSTRAINT FK_ebook_2
     FOREIGN KEY (fk_livro_id_livro, fk_livro_fk_produto_id)
     REFERENCES livro (id_livro, fk_produto_id)
@@ -376,8 +391,8 @@ ALTER TABLE livro ADD CONSTRAINT FK_livro_3
     ON DELETE RESTRICT;
  
 ALTER TABLE livro ADD CONSTRAINT FK_livro_4
-    FOREIGN KEY (fk_categoria_id)
-    REFERENCES categoria (id)
+    FOREIGN KEY (fk_categoria_estante_id)
+    REFERENCES categoria_estante (id)
     ON DELETE RESTRICT;
  
 ALTER TABLE livro ADD CONSTRAINT FK_livro_5
@@ -508,6 +523,11 @@ ALTER TABLE material_papelaria ADD CONSTRAINT FK_material_papelaria_3
 ALTER TABLE material_papelaria ADD CONSTRAINT FK_material_papelaria_4
     FOREIGN KEY (fk_instituicao_cnpj)
     REFERENCES instituicao (cnpj)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE produto ADD CONSTRAINT FK_produto_2
+    FOREIGN KEY (fk_categoria_produto_id)
+    REFERENCES categoria_produto (id)
     ON DELETE RESTRICT;
  
 ALTER TABLE contem ADD CONSTRAINT FK_contem_1
