@@ -7,7 +7,7 @@ CREATE TABLE braile (
 );
 
 CREATE TABLE servico (
-    id_servico int  PRIMARY KEY,
+    id_servico int PRIMARY KEY,
     tipo_servico varchar,
     taxa_servico int
 );
@@ -19,11 +19,11 @@ CREATE TABLE audiobook (
 );
 
 CREATE TABLE venda (
-    cupom_desconto int ,
+    cupom_desconto int,
     metodo_pagamento varchar,
     endereco_entrega varchar,
     valor_produto real,
-    id_produto int PRIMARY KEY,
+    id_venda int PRIMARY KEY,
     fk_vendedor_fk_pessoa_id int
 );
 
@@ -48,7 +48,7 @@ CREATE TABLE cadastro (
 );
 
 CREATE TABLE palestra_debate (
-    horario time,
+    horario time ,
     lotacao int,
     taxa_ingresso real,
     id_evento int PRIMARY KEY,
@@ -62,7 +62,7 @@ CREATE TABLE livro (
     qtd_exemplares int,
     id_livro int,
     fk_produto_id int,
-    fk_servico_id_servico int ,
+    fk_servico_id_servico int,
     fk_categoria_id int,
     fk_editora_nome varchar,
     PRIMARY KEY (id_livro, fk_produto_id)
@@ -261,8 +261,7 @@ CREATE TABLE material_papelaria (
 
 CREATE TABLE produto (
     id int PRIMARY KEY,
-    preco real,
-    fk_venda_id_produto int
+    preco real
 );
 
 CREATE TABLE empresa (
@@ -274,6 +273,11 @@ CREATE TABLE empresa (
 CREATE TABLE lista_materiais (
     modelo_fardamento varchar,
     serie varchar PRIMARY KEY
+);
+
+CREATE TABLE contem (
+    fk_venda_id_venda int,
+    fk_produto_id int
 );
 
 CREATE TABLE promove (
@@ -506,9 +510,14 @@ ALTER TABLE material_papelaria ADD CONSTRAINT FK_material_papelaria_4
     REFERENCES instituicao (cnpj)
     ON DELETE RESTRICT;
  
-ALTER TABLE produto ADD CONSTRAINT FK_produto_2
-    FOREIGN KEY (fk_venda_id_produto)
-    REFERENCES venda (id_produto)
+ALTER TABLE contem ADD CONSTRAINT FK_contem_1
+    FOREIGN KEY (fk_venda_id_venda)
+    REFERENCES venda (id_venda)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE contem ADD CONSTRAINT FK_contem_2
+    FOREIGN KEY (fk_produto_id)
+    REFERENCES produto (id)
     ON DELETE RESTRICT;
  
 ALTER TABLE promove ADD CONSTRAINT FK_promove_1
