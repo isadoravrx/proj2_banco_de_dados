@@ -1,4 +1,4 @@
-/* projeto_fisico: */
+/* projeto_logico: */
 
 CREATE TABLE braile (
     fk_livro_id_livro int,
@@ -24,7 +24,9 @@ CREATE TABLE venda (
     valor_produto real,
     id_venda int PRIMARY KEY,
     valor_total real,
-    fk_vendedor_fk_pessoa_id int,
+    fk_vendedor_fk_Funcionario_n__do_pis int,
+    fk_vendedor_fk_Funcionario_conta_bancaria int,
+    fk_vendedor_fk_Funcionario_fk_pessoa_id int,
     fk_cliente_fk_pessoa_id int
 );
 
@@ -45,7 +47,9 @@ CREATE TABLE cadastro (
     tipo_cadastro varchar,
     login varchar,
     senha varchar,
-    fk_vendedor_fk_pessoa_id int
+    fk_vendedor_fk_Funcionario_n__do_pis int,
+    fk_vendedor_fk_Funcionario_conta_bancaria int,
+    fk_vendedor_fk_Funcionario_fk_pessoa_id int
 );
 
 CREATE TABLE palestra_debate (
@@ -96,7 +100,10 @@ CREATE TABLE instituicao (
 CREATE TABLE vendedor (
     regime_trabalho varchar,
     salario real,
-    fk_pessoa_id int PRIMARY KEY
+    fk_Funcionario_n__do_pis int,
+    fk_Funcionario_conta_bancaria int,
+    fk_Funcionario_fk_pessoa_id int,
+    PRIMARY KEY (fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
 );
 
 CREATE TABLE editora (
@@ -184,6 +191,7 @@ CREATE TABLE Professor (
 CREATE TABLE Funcionario (
     n__do_pis int,
     conta_bancaria int,
+    salario real,
     fk_pessoa_id int,
     PRIMARY KEY (n__do_pis, conta_bancaria, fk_pessoa_id)
 );
@@ -297,7 +305,9 @@ CREATE TABLE produz (
 );
 
 CREATE TABLE subordinado_a (
-    fk_vendedor_fk_pessoa_id int,
+    fk_vendedor_fk_Funcionario_n__do_pis int,
+    fk_vendedor_fk_Funcionario_conta_bancaria int,
+    fk_vendedor_fk_Funcionario_fk_pessoa_id int,
     fk_instituicao_cnpj varchar
 );
 
@@ -357,8 +367,8 @@ ALTER TABLE audiobook ADD CONSTRAINT FK_audiobook_2
     ON DELETE CASCADE;
  
 ALTER TABLE venda ADD CONSTRAINT FK_venda_2
-    FOREIGN KEY (fk_vendedor_fk_pessoa_id)
-    REFERENCES vendedor (fk_pessoa_id)
+    FOREIGN KEY (fk_vendedor_fk_Funcionario_n__do_pis, fk_vendedor_fk_Funcionario_conta_bancaria, fk_vendedor_fk_Funcionario_fk_pessoa_id)
+    REFERENCES vendedor (fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
     ON DELETE RESTRICT;
  
 ALTER TABLE venda ADD CONSTRAINT FK_venda_3
@@ -382,8 +392,8 @@ ALTER TABLE livro_fisico ADD CONSTRAINT FK_livro_fisico_2
     ON DELETE CASCADE;
  
 ALTER TABLE cadastro ADD CONSTRAINT FK_cadastro_1
-    FOREIGN KEY (fk_vendedor_fk_pessoa_id)
-    REFERENCES vendedor (fk_pessoa_id)
+    FOREIGN KEY (fk_vendedor_fk_Funcionario_n__do_pis, fk_vendedor_fk_Funcionario_conta_bancaria, fk_vendedor_fk_Funcionario_fk_pessoa_id)
+    REFERENCES vendedor (fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
     ON DELETE RESTRICT;
  
 ALTER TABLE livro ADD CONSTRAINT FK_livro_2
@@ -417,8 +427,8 @@ ALTER TABLE avaliacao ADD CONSTRAINT FK_avaliacao_3
     ON DELETE CASCADE;
  
 ALTER TABLE vendedor ADD CONSTRAINT FK_vendedor_2
-    FOREIGN KEY (fk_pessoa_id)
-    REFERENCES pessoa (id)
+    FOREIGN KEY (fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
+    REFERENCES Funcionario (n__do_pis, conta_bancaria, fk_pessoa_id)
     ON DELETE CASCADE;
  
 ALTER TABLE Trasportador_escolar ADD CONSTRAINT FK_Trasportador_escolar_2
@@ -562,8 +572,8 @@ ALTER TABLE produz ADD CONSTRAINT FK_produz_2
     ON DELETE RESTRICT;
  
 ALTER TABLE subordinado_a ADD CONSTRAINT FK_subordinado_a_1
-    FOREIGN KEY (fk_vendedor_fk_pessoa_id)
-    REFERENCES vendedor (fk_pessoa_id)
+    FOREIGN KEY (fk_vendedor_fk_Funcionario_n__do_pis, fk_vendedor_fk_Funcionario_conta_bancaria, fk_vendedor_fk_Funcionario_fk_pessoa_id)
+    REFERENCES vendedor (fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
     ON DELETE RESTRICT;
  
 ALTER TABLE subordinado_a ADD CONSTRAINT FK_subordinado_a_2
