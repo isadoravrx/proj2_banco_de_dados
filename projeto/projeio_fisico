@@ -142,11 +142,6 @@ CREATE TABLE pessoa (
     idade int,
     CPF varchar,
     RG varchar,
-    fk_Funcionario_da_saude_registro_do_conselho_regional int,
-    fk_Funcionario_da_saude_Profissao varchar,
-    fk_Funcionario_da_saude_fk_Funcionario_n__do_pis int,
-    fk_Funcionario_da_saude_fk_Funcionario_conta_bancaria int,
-    fk_Funcionario_da_saude_fk_Funcionario_fk_pessoa_id int,
     fk_recompensa_id_recompensa int
 );
 
@@ -306,6 +301,17 @@ CREATE TABLE subordinado_a (
     fk_instituicao_cnpj varchar
 );
 
+CREATE TABLE consulta (
+    fk_Funcionario_da_saude_registro_do_conselho_regional int,
+    fk_Funcionario_da_saude_Profissao varchar,
+    fk_Funcionario_da_saude_fk_Funcionario_n__do_pis int,
+    fk_Funcionario_da_saude_fk_Funcionario_conta_bancaria int,
+    fk_Funcionario_da_saude_fk_Funcionario_fk_pessoa_id int,
+    fk_pessoa_id int,
+    data_consulta date,
+    diagnostico varchar
+);
+
 CREATE TABLE e_ensinado_por (
     fk_Aluno_id_da_matricula int,
     fk_Aluno_fk_pessoa_id int,
@@ -421,11 +427,6 @@ ALTER TABLE Trasportador_escolar ADD CONSTRAINT FK_Trasportador_escolar_2
     ON DELETE CASCADE;
  
 ALTER TABLE pessoa ADD CONSTRAINT FK_pessoa_2
-    FOREIGN KEY (fk_Funcionario_da_saude_registro_do_conselho_regional, fk_Funcionario_da_saude_Profissao, fk_Funcionario_da_saude_fk_Funcionario_n__do_pis, fk_Funcionario_da_saude_fk_Funcionario_conta_bancaria, fk_Funcionario_da_saude_fk_Funcionario_fk_pessoa_id)
-    REFERENCES Funcionario_da_saude (registro_do_conselho_regional, Profissao, fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
-    ON DELETE CASCADE;
- 
-ALTER TABLE pessoa ADD CONSTRAINT FK_pessoa_3
     FOREIGN KEY (fk_recompensa_id_recompensa)
     REFERENCES recompensa (id_recompensa)
     ON DELETE RESTRICT;
@@ -568,6 +569,16 @@ ALTER TABLE subordinado_a ADD CONSTRAINT FK_subordinado_a_1
 ALTER TABLE subordinado_a ADD CONSTRAINT FK_subordinado_a_2
     FOREIGN KEY (fk_instituicao_cnpj)
     REFERENCES instituicao (cnpj)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE consulta ADD CONSTRAINT FK_consulta_1
+    FOREIGN KEY (fk_Funcionario_da_saude_registro_do_conselho_regional, fk_Funcionario_da_saude_Profissao, fk_Funcionario_da_saude_fk_Funcionario_n__do_pis, fk_Funcionario_da_saude_fk_Funcionario_conta_bancaria, fk_Funcionario_da_saude_fk_Funcionario_fk_pessoa_id)
+    REFERENCES Funcionario_da_saude (registro_do_conselho_regional, Profissao, fk_Funcionario_n__do_pis, fk_Funcionario_conta_bancaria, fk_Funcionario_fk_pessoa_id)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE consulta ADD CONSTRAINT FK_consulta_2
+    FOREIGN KEY (fk_pessoa_id)
+    REFERENCES pessoa (id)
     ON DELETE RESTRICT;
  
 ALTER TABLE e_ensinado_por ADD CONSTRAINT FK_e_ensinado_por_1
