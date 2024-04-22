@@ -1,4 +1,4 @@
-/* projeto_logico: */
+/* projeto_fisico: */
 
 CREATE TABLE braile (
     fk_livro_id_livro int,
