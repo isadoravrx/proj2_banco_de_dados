@@ -7,7 +7,7 @@ CREATE TABLE braile (
 );
 
 CREATE TABLE servico (
-    id_servico int PRIMARY KEY,
+    id_servico int  PRIMARY KEY,
     tipo_servico varchar,
     taxa_servico int
 );
@@ -19,7 +19,7 @@ CREATE TABLE audiobook (
 );
 
 CREATE TABLE venda (
-    cupom_desconto int,
+    cupom_desconto int ,
     metodo_pagamento varchar,
     endereco_entrega varchar,
     valor_produto real,
@@ -62,7 +62,7 @@ CREATE TABLE livro (
     qtd_exemplares int,
     id_livro int,
     fk_produto_id int,
-    fk_servico_id_servico int,
+    fk_servico_id_servico int ,
     fk_categoria_id int,
     fk_editora_nome varchar,
     PRIMARY KEY (id_livro, fk_produto_id)
