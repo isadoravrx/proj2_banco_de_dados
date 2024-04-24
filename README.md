@@ -13,8 +13,8 @@ Grupo:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
 - Físico desenvolvido:<br/><br/>
-  - DDl <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
-  - DML <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
+  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
+  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
 - Apresentação do sistema<br/>
 A escola EducaLivros oferece para os seus alunos os **modelos presencial e EAD**, serviços<br/>
 de **consulta com profissionais da saúde** como, consultas com nutricionistas, psicólogos e<br/>
