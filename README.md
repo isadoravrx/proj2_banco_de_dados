@@ -41,7 +41,6 @@ realizar a compra de livros, paradidáticos, materiais de papelaria ou fardament
 livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e como um<br/>
 recurso de acessibilidade para realizar o planejamento escolar, sem necessitar de logísticas<br/>
 para a forma presencial.<br/><br/>
-
 **EasterEgg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos disponíveis e<br/>
 por realizar o cadastro do aluno na plataforma, como suporte virtual ao discente. Cada<br/>
 aluno cadastrado recebe o benefício de um cupom com 15% de desconto, para ser abatido<br/>
@@ -49,7 +48,6 @@ no valor da mensalidade, cada vez que a quantidade de livros comprados atinge<br
 determinado número. Dessa forma, a instituição reforça o estímulo e incentivo da<br/>
 construção do pensamento crítico do aluno ao oferecer um benefício àqueles que possuem<br/>
 consumos literários significativos.<br/><br/>
-
 Em casos de compra, os produtos podem oferecer o **serviço de entrega, retirada ou** <br/>
 **download** na livraria, se desejável.<br/>
 Os **livros** são organizados em **categorias**, de forma que cada livro pertence a uma<br/>
@@ -57,7 +55,6 @@ categoria e cada categoria pode conter muitos livros. Essa estruturação tem o 
 promover o conforto do leitor que desejar identificar os livros em cada endereço de sessão<br/>
 na plataforma, de acordo com a categoria área de conhecimento ou a categoria gênero<br/>
 abordada no livro, por exemplo.<br/><br/>
-
 Os **materiais de papelaria** são fabricados por um fornecedor parceiro e organizados em<br/>
 **categorias**, de forma que cada produto pertence a uma categoria e cada categoria pode<br/>
 conter muitos produtos. Essa estruturação tem o objetivo de promover o conforto para o<br/>
