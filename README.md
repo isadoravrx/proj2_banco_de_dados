@@ -5,7 +5,7 @@ Grupo:
 - Isadora Xavier
 - Marcelo Henrique
 - Maria Eduarda Santana da Silva Barros
-
+<br/><br/>
 - Conceitual desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_conceitual.png">
 
