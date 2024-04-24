@@ -6,14 +6,14 @@ Grupo:
 - Marcelo Henrique
 - Maria Eduarda Santana da Silva Barros
 
-● Conceitual desenvolvido:
-(imagem png conceitual)
+- Conceitual desenvolvido:
+<img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_conceitual.png">
 
-● Lógico desenvolvido:
+- Lógico desenvolvido:
 (imagem png lógico)
 
 ● Físico desenvolvido:
-(print algum trecho do físico)
+<img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
 ● Apresentação do sistema
 A escola EducaLivros oferece para os seus alunos os *modelos presencial e EAD*, serviços<br/>
