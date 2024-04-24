@@ -12,7 +12,7 @@ Grupo:
 - Lógico desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
-- Físico desenvolvido:<br/><br/>
+- Físico desenvolvido:<br/>
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
 - Apresentação do sistema<br/>
