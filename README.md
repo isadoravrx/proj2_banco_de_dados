@@ -10,10 +10,10 @@ Grupo:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_conceitual.png">
 
 - Lógico desenvolvido:
-(imagem png lógico)
+<img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
 ● Físico desenvolvido:
-<img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
+
 
 ● Apresentação do sistema
 A escola EducaLivros oferece para os seus alunos os *modelos presencial e EAD*, serviços<br/>
