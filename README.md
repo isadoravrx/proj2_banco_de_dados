@@ -71,7 +71,7 @@ No projeto desenvolvido, ainda, cada livro pode pertencer a 1 ou mais *autores*,
 disponibilizado nos *modelos: físico; e-book; audiobook e braille*, abrangendo<br/>
 assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br/>
 
-● Perguntas
+● Perguntas<br/>
 Pergunta 1: Quais produtos são mais vendidos por tipo de aluno (aluno infantil, aluno
 fundamental, aluno médio)?<br/>
 ideia: direcionar ações de marketing e promoções.<br/><br/>
