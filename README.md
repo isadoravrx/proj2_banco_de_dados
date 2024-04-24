@@ -14,7 +14,7 @@ Grupo:
 
 - Físico desenvolvido:<br/><br/>
 
-- Apresentação do sistema
+- Apresentação do sistema<br/>
 A escola EducaLivros oferece para os seus alunos os **modelos presencial e EAD**, serviços<br/>
 de **consulta com profissionais da saúde** como, consultas com nutricionistas, psicólogos e<br/>
 educadores físicos - que podem realizar consultas de avaliação física para alunos que<br/>
