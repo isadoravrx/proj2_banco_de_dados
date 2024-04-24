@@ -21,7 +21,6 @@ educadores físicos - que podem realizar consultas de avaliação física para a
 cursam disciplinas esportivas, por exemplo. Cada **disciplina** possui um tipo como, **teórica,<br/>
 prática ou esportiva**. A equipe de professores conta com profissionais altamente<br/>
 qualificados para lecionar no nosso ambiente.<br/><br/>
-
 A escola terá um ambiente de convivência centralizado no espaço da **cantina**, com uma<br/>
 diversidade de alimentos selecionados pela equipe de nutrição, que podem ser comprados<br/>
 diretamente pelos alunos durante o horário de funcionamento. Além disso, a EducaLivros<br/>
@@ -29,7 +28,6 @@ contém o serviço de **transporte escolar**, oferecido para os bairros mais com
 alunos matriculados, oferecendo conforto e segurança no trajeto do aluno até a unidade<br/>
 escolar. Além disso, uma importante característica da instuição, é que os alunos possuem aulas<br/>
 conforme seu **segmento do novo ensino médio**<br/>
-
 O diferencial desta instituição é o sistema inovador de livraria online contida no portal do<br/>
 colegial, que oferece serviços de **venda** de obras literárias, **materiais de papelaria**,<br/>
 **fardamento escolar** e a **promoção de eventos temáticos**, como palestras e debates. Os<br/>
@@ -38,7 +36,6 @@ pensamento crítico para os seus alunos, e são escolhidos a partir do **registr
 que cada **aluno** – pode realizar sobre o livro, após a leitura. Assim, a obra melhor avaliada<br/>
 do mês será utilizada como tema para debates, dinâmicas ou palestras. O debate ocorre em<br/>
 salas, que podem ser salas virtuais ou em salas dentro da unidade escolar.<br/><br/>
-
 A livraria estará disponível de forma online no portal do aluno para os alunos que desejarem<br/>
 realizar a compra de livros, paradidáticos, materiais de papelaria ou fardamento, na própria<br/>
 livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e como um<br/>
