@@ -15,7 +15,7 @@ Grupo:
 
 ### - Modelo físico desenvolvido: 
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
-  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML e DQL</a>
+  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
 <br/>
 
 ### - Apresentação do sistema
