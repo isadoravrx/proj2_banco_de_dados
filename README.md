@@ -88,7 +88,7 @@ de seus dependentes?<br/>
 contato.<br/><br/>
 **Pergunta 5:** Quais são os produtos mais vendidos?<br/>
 **Objetivo:** útil para que o dono possa aumentar o estoque e o marketing relacionado ao produto.<br/><br/>
-**Pergunta 6:** Qual o valor médio de compra por cliente, por mês e por tipo de pagamento?<br/>
+**Pergunta 6:** Qual o valor médio de compra por cliente e por tipo de pagamento?<br/>
 **Objetivo:** fazer promoções específicas para cada cliente, assim fidelizando eles, etc<br/><br/>
 **Pergunta 7:** Qual o bairro mais comum entre os alunos?<br/>
 **Objetivo:** avaliar a demanda por novos ônibus de transporte para os bairros mais comuns entre<br/>
