@@ -48,9 +48,9 @@ recurso de acessibilidade para realizar o planejamento escolar, sem necessitar d
 para a forma presencial.<br/><br/>
 **EasterEgg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos disponíveis e<br/>
 por realizar o cadastro do aluno na plataforma, como suporte virtual ao discente. Cada<br/>
-aluno cadastrado recebe o benefício de um cupom com 15% de desconto, para ser abatido<br/>
-no valor da mensalidade, cada vez que a quantidade de livros comprados atinge<br/>
-determinado número. Dessa forma, a instituição reforça o estímulo e incentivo da<br/>
+aluno recebe um cupom com 15% de desconto, para ser abatido<br/>
+no valor da mensalidade, quando a quantidade de livros comprados atinge<br/>
+determinado número estabelecido pela livraria. Dessa forma, a instituição reforça o estímulo e incentivo da<br/>
 construção do pensamento crítico do aluno ao oferecer um benefício àqueles que possuem<br/>
 consumos literários significativos.<br/><br/>
 Em casos de compra, os produtos podem oferecer o **serviço de entrega, retirada ou** <br/>
