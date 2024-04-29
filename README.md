@@ -6,15 +6,20 @@ Grupo:
 - Marcelo Henrique
 - Maria Eduarda Santana da Silva Barros
 <br/><br/>
-- Conceitual desenvolvido:
+
+### - Modelo conceitual desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_conceitual.png">
 
-- Lógico desenvolvido:
+### - Modelo lógico desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
-- Físico desenvolvido:<br/><br/>
+### - Modelo físico desenvolvido: 
+  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
+  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
+<br/>
 
-- Apresentação do sistema<br/>
+### - Apresentação do sistema
+
 A escola EducaLivros oferece para os seus alunos os **modelos presencial e EAD**, serviços<br/>
 de **consulta com profissionais da saúde** como, consultas com nutricionistas, psicólogos e<br/>
 educadores físicos - que podem realizar consultas de avaliação física para alunos que<br/>
@@ -27,7 +32,7 @@ diretamente pelos alunos durante o horário de funcionamento. Além disso, a Edu
 contém o serviço de **transporte escolar**, oferecido para os bairros mais comuns entre os<br/>
 alunos matriculados, oferecendo conforto e segurança no trajeto do aluno até a unidade<br/>
 escolar. Além disso, uma importante característica da instuição, é que os alunos possuem aulas<br/>
-conforme seu **segmento do novo ensino médio**<br/>
+conforme seu **segmento do novo ensino médio**.<br/><br/>
 O diferencial desta instituição é o sistema inovador de livraria online contida no portal do<br/>
 colegial, que oferece serviços de **venda** de obras literárias, **materiais de papelaria**,<br/>
 **fardamento escolar** e a **promoção de eventos temáticos**, como palestras e debates. Os<br/>
@@ -41,13 +46,13 @@ realizar a compra de livros, paradidáticos, materiais de papelaria ou fardament
 livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e como um<br/>
 recurso de acessibilidade para realizar o planejamento escolar, sem necessitar de logísticas<br/>
 para a forma presencial.<br/><br/>
-**EasterEgg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos disponíveis e<br/>
-por realizar o cadastro do aluno na plataforma, como suporte virtual ao discente. Cada<br/>
-aluno cadastrado recebe o benefício de um cupom com 15% de desconto, para ser abatido<br/>
-no valor da mensalidade, cada vez que a quantidade de livros comprados atinge<br/>
-determinado número. Dessa forma, a instituição reforça o estímulo e incentivo da<br/>
-construção do pensamento crítico do aluno ao oferecer um benefício àqueles que possuem<br/>
-consumos literários significativos.<br/><br/>
+**EasterEgg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos<br/>
+ disponíveis e por realizar o cadastro do aluno na plataforma, como suporte virtual ao <br/>
+discente. **Cada aluno recebe um cupom com 15% de desconto, para ser abatido no valor da<br/>
+mensalidade, quando a quantidade de livros comprados atinge determinado número estabelecido<br/>
+pela livraria.** Dessa forma, a instituição reforça o estímulo e incentivo da construção<br/>
+do pensamento crítico do aluno ao oferecer um benefício àqueles que possuem consumos<br/>
+ literários significativos.<br/><br/>
 Em casos de compra, os produtos podem oferecer o **serviço de entrega, retirada ou** <br/>
 **download** na livraria, se desejável.<br/>
 Os **livros** são organizados em **categorias**, de forma que cada livro pertence a uma<br/>
@@ -65,25 +70,26 @@ No projeto desenvolvido, ainda, cada livro pode pertencer a 1 ou mais **autores*
 disponibilizado nos **modelos: físico; e-book; audiobook e braille**, abrangendo<br/>
 assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br/>
 
-- Perguntas<br/>
-Pergunta 1: Quais produtos são mais vendidos por tipo de aluno (aluno infantil, aluno
+### - Perguntas
+
+**Pergunta 1:** Quais produtos são mais vendidos por tipo de aluno (aluno infantil, aluno
 fundamental, aluno médio)?<br/>
-ideia: direcionar ações de marketing e promoções.<br/><br/>
-Pergunta 2: Qual o tipo de serviço mais registrado (entrega, retirada ou download)?<br/>
-ideia: identificar a necessidade da contratação de novos entregadores ou motoboys, caso <br/>
+**Objetivo:** direcionar ações de marketing e promoções.<br/><br/>
+**Pergunta 2:** Qual o tipo de serviço mais registrado (entrega, retirada ou download)?<br/>
+**Objetivo:** identificar a necessidade da contratação de novos entregadores ou motoboys, caso <br/>
 delivery por entrega seja o mais recorrido pelos clientes.<br/><br/>
-Pergunta 3: Qual a quantidade de alunos cursando presencial e a quantidade de alunos<br/>
+**Pergunta 3:** Qual a quantidade de alunos cursando presencial e a quantidade de alunos<br/>
 cursando EAD?<br/>
-ideia: mapear a demanda de cursos em cada modalidade, para disponibilizar novas turmas
+**Objetivo:** mapear a demanda de cursos em cada modalidade, para disponibilizar novas turmas
 de acordo com a necessidade.<br/><br/>
-Pergunta 4: Quais responsáveis financeiros estão com pendências no status de pagamento<br/>
+**Pergunta 4:** Quais responsáveis financeiros estão com pendências no status de pagamento<br/>
 de seus dependentes?<br/>
-ideia: reduzir a taxa de inadimplência ao identificar os responsáveis, e poder entrar em<br/>
+**Objetivo:** reduzir a taxa de inadimplência ao identificar os responsáveis, e poder entrar em<br/>
 contato.<br/><br/>
-Pergunta 5: Quais são os produtos mais vendidos?<br/>
-ideia: útil para que o dono possa aumentar o estoque e o marketing relacionado ao produto.<br/>
-Pergunta 6: Qual o valor médio de compra por cliente, por mês e por tipo de pagamento?<br/>
-ideia: fazer promoções específicas para cada cliente, assim fidelizando eles, etc<br/><br/>
-Pergunta 7: Qual o bairro mais comum entre os alunos?<br/>
-ideia: avaliar a demanda por novos ônibus de transporte para os bairros mais comuns entre<br/>
+**Pergunta 5:** Quais são os produtos mais vendidos?<br/>
+**Objetivo:** útil para que o dono possa aumentar o estoque e o marketing relacionado ao produto.<br/><br/>
+**Pergunta 6:** Qual o valor médio de compra por cliente, por mês e por tipo de pagamento?<br/>
+**Objetivo:** fazer promoções específicas para cada cliente, assim fidelizando eles, etc<br/><br/>
+**Pergunta 7:** Qual o bairro mais comum entre os alunos?<br/>
+**Objetivo:** avaliar a demanda por novos ônibus de transporte para os bairros mais comuns entre<br/>
 os discentes.<br/><br/>
