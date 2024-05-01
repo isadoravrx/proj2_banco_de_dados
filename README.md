@@ -116,6 +116,6 @@ além dos seus sistemas de benefícios.
   - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
   - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
     desconto para a compra do ingresso.<br/>
-- Haverá também, uma **simulação de interface** de uma venda online da livraria, para mais esclarecimentos.<br/>
+- Haverá também, uma **ilustração de interface** de uma venda online da livraria, para mais esclarecimentos.<br/>
 - Por fim, serão destrinchados os **tipos de serviços** da venda da livraria(Entrega, Retirada e Download).<br/>
 
