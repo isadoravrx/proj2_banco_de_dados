@@ -101,7 +101,7 @@ contato.<br/>
 **Pergunta 6:** Qual o valor médio de compra por cliente e por tipo de pagamento?<br/>
 **Objetivo:** fazer promoções específicas para cada cliente, assim fidelizando eles, etc<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta6.sql">Query 6</a><br/><br/>
-**Pergunta 7:** Qual os bairros mais comuns entre os alunos?<br/>
+**Pergunta 7:** Quais os bairros mais comuns entre os alunos?<br/>
 **Objetivo:** avaliar a demanda por novos ônibus de transporte para os bairros mais comuns entre<br/>
 os discentes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
