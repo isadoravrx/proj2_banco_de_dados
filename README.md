@@ -49,16 +49,16 @@ livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e co
 recurso de acessibilidade para realizar o planejamento escolar, sem necessitar de logísticas<br/>
 para a forma presencial.<br/><br/>
 Nesse ambiente o vendedor é responsável por realizar o cadastro do aluno na plataforma,<br/>
-em caso de suporte virtual ao discente, e também por operar a venda dos produtos disponíveis, relacionando-se<br/>
-com uma venda online a partir do seu código de vendedor. O código é utilizado pelo aluno no momento de<br/>
-finalização da compra e, ao operar muitas vendas com esse código, o vendedor pode ganhar uma comissão<br/>
-por vendas.<br/><br/>
+em caso de suporte virtual ao discente, e também por operar a venda dos produtos disponíveis,<br/>
+relacionando-se com uma venda online a partir do seu código de vendedor. O código é utilizado pelo<br/>
+aluno no momento de finalização da compra e, ao operar muitas vendas com esse código, o vendedor pode<br/>
+ganhar uma comissão por vendas.<br/><br/>
 **Easter Egg** : **Quando a quantidade de livros comprados atinge determinado número estabelecido pela<br/>
 livraria, o aluno recebe um cupom com 15% de desconto, para ser abatido no valor da mensalidade**<br/>
 Dessa forma, a instituição reforça o estímulo e incentivo à leitura, ao consumo literário e à construção<br/>
-do pensamento crítico do aluno, ao oferecer um benefício àqueles que possuem consumos literários significativos.<br/>
-Além disso, **os alunos que decidirem participar de uma palestra com tema de um livro já comprado/lido ganharão<br/>
-um cupom com 15% de desconto para a compra do ingresso**.<br/><br/>
+do pensamento crítico do aluno, ao oferecer um benefício àqueles que possuem consumos literários<br/>
+significativos. Além disso, **os alunos que decidirem participar de uma palestra com tema de um livro<br/>
+já comprado/lido ganharão um cupom com 15% de desconto para a compra do ingresso**.<br/><br/>
 Em casos de compra, os produtos podem oferecer o **serviço de entrega, retirada ou** <br/>
 **download** na livraria, se desejável.<br/><br/>
 Os **livros** são organizados em **categorias**, de forma que cada livro pertence a uma<br/>
