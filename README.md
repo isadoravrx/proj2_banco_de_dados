@@ -46,7 +46,7 @@ realizar a compra de livros, paradidáticos, materiais de papelaria ou fardament
 livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e como um<br/>
 recurso de acessibilidade para realizar o planejamento escolar, sem necessitar de logísticas<br/>
 para a forma presencial.<br/><br/>
-**EasterEgg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos<br/>
+**Easter Egg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos<br/>
  disponíveis e por realizar o cadastro do aluno na plataforma, como suporte virtual ao <br/>
 discente. **Cada aluno recebe um cupom com 15% de desconto, para ser abatido no valor da<br/>
 mensalidade, quando a quantidade de livros comprados atinge determinado número estabelecido<br/>
@@ -112,7 +112,7 @@ que possui, tipos de produto que disponibiliza, como **itens de papelaria e fard
 fundamental e ensino médio) e **itens de papelaria**(Régua, lápis, caderno, etc).
 - Será também ressaltado algumas características do **debates**, como o fato de poder ser presencial ou virtual,<br/>
 além dos seus sistemas de benefícios.
-- Alguns benefícios do sistema, também serão aprofundados:
+- Alguns benefícios do sistema, também serão aprofundados(**Easter Eggs**):
   - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
   - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
     desconto para a compra do ingresso.<br/>
