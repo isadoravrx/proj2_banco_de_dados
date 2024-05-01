@@ -49,7 +49,7 @@ livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e co
 recurso de acessibilidade para realizar o planejamento escolar, sem necessitar de logísticas<br/>
 para a forma presencial.<br/><br/>
 Nesse ambiente o vendedor é responsável por realizar o cadastro do aluno na plataforma,<br/>
-em caso de suporte virtual ao discente e por operar a venda dos produtos disponíveis, relacionando-se<br/>
+em caso de suporte virtual ao discente, e também por operar a venda dos produtos disponíveis, relacionando-se<br/>
 com uma venda online a partir do seu código de vendedor. O código é utilizado pelo aluno no momento de<br/>
 finalização da compra e, ao operar muitas vendas com esse código, o vendedor pode ganhar uma comissão<br/>
 por vendas.<br/><br/>
