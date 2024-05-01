@@ -101,7 +101,7 @@ os discentes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
 
 ### Roteiro - Pitch 
-- <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
+-> <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
 - Inicialmente, serão apresentados alguns serviçõs escolares que a escola disponibiliza, como <br/>
 os tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável, dentre outros. <br/>
 - Posteriormente, será apresentado também o serviço de transporte escolar, e seu sistema inteligente. <br/>
