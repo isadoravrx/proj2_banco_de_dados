@@ -14,7 +14,7 @@ Grupo:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
 ###  Modelo físico desenvolvido: 
-  - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
+- <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
 <br/>
 
@@ -101,7 +101,7 @@ os discentes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
 
 ### Roteiro - Pitch 
-<br/>
+
   <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
   - Inicialmente, serão apresentados alguns serviçõs escolares que a escola disponibiliza, como <br/>
   os tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável, dentre outros. <br/>
