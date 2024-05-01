@@ -81,7 +81,7 @@ delivery por entrega seja o mais recorrido pelos clientes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta2.sql">Query 2</a><br/><br/>
 **Pergunta 3:** Qual a quantidade de alunos cursando presencial e a quantidade de alunos<br/>
 cursando EAD?<br/>
-**Objetivo:** mapear a demanda de cursos em cada modalidade, para disponibilizar novas turmas
+**Objetivo:** mapear a demanda de cursos em cada modalidade, para disponibilizar novas turmas<br/>
 de acordo com a necessidade.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta3.sql">Query 3</a><br/><br/>
 **Pergunta 4:** Quais responsáveis financeiros estão com pendências no status de pagamento<br/>
