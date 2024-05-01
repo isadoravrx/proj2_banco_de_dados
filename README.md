@@ -7,17 +7,20 @@ Grupo:
 - Maria Eduarda Santana da Silva Barros
 <br/><br/>
 
-### Modelo conceitual desenvolvido:
+### > Modelo conceitual desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_conceitual.png">
+<br/>
 
-###  Modelo lógico desenvolvido:
+###  > Modelo lógico desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
+<br/>
 
-###  Modelo físico desenvolvido: 
+###  > Modelo físico desenvolvido: 
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
-
-### Apresentação do sistema
+  <br/>
+  
+### > Apresentação do sistema
 
 A escola EducaLivros oferece para os seus alunos os **modelos presencial e EAD**, serviços<br/>
 de **consulta com profissionais da saúde** como, consultas com nutricionistas, psicólogos e<br/>
@@ -73,7 +76,7 @@ No projeto desenvolvido, ainda, cada livro pode pertencer a 1 ou mais **autores*
 disponibilizado nos **modelos: físico; e-book; audiobook e braille**, abrangendo<br/>
 assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br/>
 
-###  Perguntas que agregam valor
+###  > Perguntas que agregam valor
 
 **Pergunta 1:** Quais os produtos mais comprados por cada cliente?<br/>
 **Objetivo:** direcionar ações de marketing e promoções personalizada para cada cliente.<br/>
@@ -103,7 +106,7 @@ contato.<br/>
 os discentes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
 
-### Roteiro - Pitch 
+### > Roteiro - Pitch 
 - [Apresentação](https://www.canva.com/design/DAGDWMvGg1M/H8KuRYa5y6W-RATq5dX5zQ/edit?utm_content=DAGDWMvGg1M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)<br/>
 - Inicialmente, serão apresentados alguns serviços escolares que a escola disponibiliza, como <br/>
 os **tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável**, dentre outros. <br/>
