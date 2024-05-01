@@ -100,7 +100,7 @@ contato.<br/>
 os discentes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
 
-# Roteiro - Pitch 
+### Roteiro - Pitch 
 <br/><br/>
 <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a> 
 - Inicialmente, serão apresentados alguns serviçõs escolares que a escola disponibiliza, como <br/>
