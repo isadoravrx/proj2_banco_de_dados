@@ -73,8 +73,8 @@ assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br
 ### - Perguntas que agregam valor
 
 **Pergunta 1:** Quais os produtos mais comprados por cada cliente?<br/>
-**Objetivo:** direcionar ações de marketing e promoções personalizada para cada cliente.<br/><br/>
-**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta1.sql">Query 1</a><br/>
+**Objetivo:** direcionar ações de marketing e promoções personalizada para cada cliente.<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta1.sql">Query 1</a><br/><br/>
 **Pergunta 2:** Qual o tipo de serviço mais registrado (entrega, retirada ou download)?<br/>
 **Objetivo:** identificar a necessidade da contratação de novos entregadores ou motoboys, caso <br/>
 delivery por entrega seja o mais recorrido pelos clientes.<br/><br/>
