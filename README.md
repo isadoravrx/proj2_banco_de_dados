@@ -18,7 +18,7 @@ Grupo:
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
 <br/>
 
-### - Apresentação do sistema
+### Apresentação do sistema
 
 A escola EducaLivros oferece para os seus alunos os **modelos presencial e EAD**, serviços<br/>
 de **consulta com profissionais da saúde** como, consultas com nutricionistas, psicólogos e<br/>
