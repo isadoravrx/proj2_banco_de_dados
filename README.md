@@ -16,7 +16,6 @@ Grupo:
 ###  Modelo físico desenvolvido: 
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
-<br/>
 
 ### Apresentação do sistema
 
@@ -46,15 +45,19 @@ realizar a compra de livros, paradidáticos, materiais de papelaria ou fardament
 livraria da escola. Esse modelo foi desenvolvido para servir de facilitador e como um<br/>
 recurso de acessibilidade para realizar o planejamento escolar, sem necessitar de logísticas<br/>
 para a forma presencial.<br/><br/>
-**Easter Egg** : Nesse ambiente o vendedor é responsável por operar a venda dos produtos<br/>
- disponíveis e por realizar o cadastro do aluno na plataforma, como suporte virtual ao <br/>
-discente. **Cada aluno recebe um cupom com 15% de desconto, para ser abatido no valor da<br/>
-mensalidade, quando a quantidade de livros comprados atinge determinado número estabelecido<br/>
-pela livraria.** Dessa forma, a instituição reforça o estímulo e incentivo da construção<br/>
-do pensamento crítico do aluno ao oferecer um benefício àqueles que possuem consumos<br/>
- literários significativos.<br/><br/>
+Nesse ambiente o vendedor é responsável por realizar o cadastro do aluno na plataforma,<br/>
+em caso de suporte virtual ao discente e por operar a venda dos produtos disponíveis, relacionando-se<br/>
+com uma venda online a partir do seu código de vendedor. O código é utilizado pelo aluno no momento de<br/>
+finalização da compra e, ao operar muitas vendas com esse código, o vendedor pode ganhar uma comissão<br/>
+por vendas.<br/><br/>
+**Easter Egg** : **Quando a quantidade de livros comprados atinge determinado número estabelecido pela<br/>
+livraria, o aluno recebe um cupom com 15% de desconto, para ser abatido no valor da mensalidade**<br/>
+Dessa forma, a instituição reforça o estímulo e incentivo à leitura, ao consumo literário e à construção<br/>
+do pensamento crítico do aluno, ao oferecer um benefício àqueles que possuem consumos literários significativos.<br/>
+Além disso, **os alunos que decidirem participar de uma palestra com tema de um livro já comprado/lido ganharão<br/>
+um cupom com 15% de desconto para a compra do ingresso**.<br/><br/>
 Em casos de compra, os produtos podem oferecer o **serviço de entrega, retirada ou** <br/>
-**download** na livraria, se desejável.<br/>
+**download** na livraria, se desejável.<br/><br/>
 Os **livros** são organizados em **categorias**, de forma que cada livro pertence a uma<br/>
 categoria e cada categoria pode conter muitos livros. Essa estruturação tem o objetivo de<br/>
 promover o conforto do leitor que desejar identificar os livros em cada endereço de sessão<br/>
@@ -101,7 +104,7 @@ os discentes.<br/>
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
 
 ### Roteiro - Pitch 
-- <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
+- [Apresentação](https://www.canva.com/design/DAGDWMvGg1M/H8KuRYa5y6W-RATq5dX5zQ/edit?utm_content=DAGDWMvGg1M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)<br/>
 - Inicialmente, serão apresentados alguns serviços escolares que a escola disponibiliza, como <br/>
 os **tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável**, dentre outros. <br/>
 - Posteriormente, será apresentado também o **serviço de transporte escolar**, e seu sistema inteligente. <br/>
@@ -113,9 +116,8 @@ fundamental e ensino médio) e **itens de papelaria**(Régua, lápis, caderno, e
 - Será também ressaltado algumas características do **debates**, como o fato de poder ser presencial ou virtual,<br/>
 além dos seus sistemas de benefícios.
 - Alguns benefícios do sistema, também serão aprofundados(**Easter Eggs**):
-  - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.
+  - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
   - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
-    desconto para a compra do ingresso.
+    desconto para a compra do ingresso.<br/>
 - Haverá também, uma **ilustração de interface** de uma venda online da livraria, para mais esclarecimentos.<br/>
 - Por fim, serão destrinchados os **tipos de serviços** da venda da livraria(Entrega, Retirada e Download).<br/>
-
