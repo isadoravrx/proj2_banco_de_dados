@@ -107,7 +107,7 @@ os **tipos de disciplinas, Sistema virtual inteligente com livraria online, cant
 - Posteriormente, será apresentado também o **serviço de transporte escolar**, e seu sistema inteligente. <br/>
 - O **Controle de inadimplências** desenvolvido pelo projeto, também será apresentado. <br/>
 - Por conseguinte, será apresentado a **livraria online**, os **tipos de livros**(braille, físico, E-book e audiobook)<br/>
-que possui, tipos de produto que disponibiliza, como **itens de papelaria e fardamento**, além de promover **debates/palestras**.<br/>
+que possui, tipos de produto que disponibiliza, como **itens de papelaria e fardamento**, e os **debates/palestras** que promove.<br/>
 - Em sequência, será mostrado os tipos de cada produto disponibilizados, como os **tipos de fardamento**(Infantil, ensino<br/>
 fundamental e ensino médio) e **itens de papelaria**(Régua, lápis, caderno, etc).
 - Será também ressaltado algumas características do **debates**, como o fato de poder ser presencial ou virtual,<br/>
