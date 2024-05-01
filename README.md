@@ -50,11 +50,11 @@ recurso de acessibilidade para realizar o planejamento escolar, sem necessitar d
 para a forma presencial.<br/><br/>
 Nesse ambiente o vendedor é responsável por realizar o cadastro do aluno na plataforma,<br/>
 em caso de suporte virtual ao discente, e também por operar a venda dos produtos disponíveis,<br/>
-relacionando-se com uma venda online a partir do seu código de vendedor. O código é utilizado pelo<br/>
-aluno no momento de finalização da compra e, ao operar muitas vendas com esse código, o vendedor pode<br/>
-ganhar uma comissão por vendas.<br/><br/>
-**Easter Egg** : **Quando a quantidade de livros comprados atinge determinado número estabelecido pela<br/>
-livraria, o aluno recebe um cupom com 15% de desconto, para ser abatido no valor da mensalidade**<br/>
+relacionando-se com uma venda online a partir do seu código de vendedor. O código é utilizado<br/>
+pelo aluno no momento de finalização da compra e, ao operar muitas vendas com esse código, o<br/>
+vendedor pode ganhar uma comissão por vendas.<br/><br/>
+**Easter Egg** : **Quando a quantidade de livros comprados atinge determinado número estabelecido<br/>
+pela livraria, o aluno recebe um cupom com 15% de desconto, para ser abatido no valor da mensalidade**<br/>
 Dessa forma, a instituição reforça o estímulo e incentivo à leitura, ao consumo literário e à construção<br/>
 do pensamento crítico do aluno, ao oferecer um benefício àqueles que possuem consumos literários<br/>
 significativos. Além disso, **os alunos que decidirem participar de uma palestra com tema de um livro<br/>
