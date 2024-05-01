@@ -117,7 +117,7 @@ fundamental e ensino médio) e **itens de papelaria**(Régua, lápis, caderno, e
 além dos seus sistemas de benefícios.
 - Alguns benefícios do sistema, também serão aprofundados(**Easter Eggs**):
   - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
-  - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
+  - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de
     desconto para a compra do ingresso.<br/>
 - Haverá também, uma **ilustração de interface** de uma venda online da livraria, para mais esclarecimentos.<br/>
 - Por fim, serão destrinchados os **tipos de serviços** da venda da livraria(Entrega, Retirada e Download).<br/>
