@@ -70,11 +70,11 @@ No projeto desenvolvido, ainda, cada livro pode pertencer a 1 ou mais **autores*
 disponibilizado nos **modelos: físico; e-book; audiobook e braille**, abrangendo<br/>
 assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br/>
 
-### - Perguntas
+### - Perguntas que agregam valor
 
-**Pergunta 1:** Quais produtos são mais vendidos por tipo de aluno (aluno infantil, aluno
-fundamental, aluno médio)?<br/>
-**Objetivo:** direcionar ações de marketing e promoções.<br/><br/>
+**Pergunta 1:** Quais os produtos mais comprados por cada cliente?<br/>
+**Objetivo:** direcionar ações de marketing e promoções personalizada para cada cliente.<br/><br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta1.sql">Query 1</a>
 **Pergunta 2:** Qual o tipo de serviço mais registrado (entrega, retirada ou download)?<br/>
 **Objetivo:** identificar a necessidade da contratação de novos entregadores ou motoboys, caso <br/>
 delivery por entrega seja o mais recorrido pelos clientes.<br/><br/>
