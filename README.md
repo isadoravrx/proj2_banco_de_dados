@@ -77,19 +77,25 @@ assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br
 **Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta1.sql">Query 1</a><br/><br/>
 **Pergunta 2:** Qual o tipo de serviço mais registrado (entrega, retirada ou download)?<br/>
 **Objetivo:** identificar a necessidade da contratação de novos entregadores ou motoboys, caso <br/>
-delivery por entrega seja o mais recorrido pelos clientes.<br/><br/>
+delivery por entrega seja o mais recorrido pelos clientes.<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta2.sql">Query 2</a><br/><br/>
 **Pergunta 3:** Qual a quantidade de alunos cursando presencial e a quantidade de alunos<br/>
 cursando EAD?<br/>
 **Objetivo:** mapear a demanda de cursos em cada modalidade, para disponibilizar novas turmas
-de acordo com a necessidade.<br/><br/>
+de acordo com a necessidade.<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta3.sql">Query 3</a><br/><br/>
 **Pergunta 4:** Quais responsáveis financeiros estão com pendências no status de pagamento<br/>
 de seus dependentes?<br/>
 **Objetivo:** reduzir a taxa de inadimplência ao identificar os responsáveis, e poder entrar em<br/>
-contato.<br/><br/>
+contato.<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta4.sql">Query 4</a><br/><br/>
 **Pergunta 5:** Quais são os produtos mais vendidos?<br/>
-**Objetivo:** útil para que o dono possa aumentar o estoque e o marketing relacionado ao produto.<br/><br/>
+**Objetivo:** útil para que o dono possa aumentar o estoque e o marketing relacionado ao produto.<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta5.sql">Query 5</a><br/><br/>
 **Pergunta 6:** Qual o valor médio de compra por cliente e por tipo de pagamento?<br/>
-**Objetivo:** fazer promoções específicas para cada cliente, assim fidelizando eles, etc<br/><br/>
+**Objetivo:** fazer promoções específicas para cada cliente, assim fidelizando eles, etc<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta6.sql">Query 6</a><br/><br/>
 **Pergunta 7:** Qual o bairro mais comum entre os alunos?<br/>
 **Objetivo:** avaliar a demanda por novos ônibus de transporte para os bairros mais comuns entre<br/>
-os discentes.<br/><br/>
+os discentes.<br/>
+**Implementação da query**: <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/perguntas/pergunta7.sql">Query 7</a><br/><br/>
