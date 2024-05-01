@@ -7,13 +7,13 @@ Grupo:
 - Maria Eduarda Santana da Silva Barros
 <br/><br/>
 
-### - Modelo conceitual desenvolvido:
+### Modelo conceitual desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_conceitual.png">
 
-### - Modelo lógico desenvolvido:
+###  Modelo lógico desenvolvido:
 <img src = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/screenshots/img_projeto_logico.png">
 
-### - Modelo físico desenvolvido: 
+###  Modelo físico desenvolvido: 
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/projeto_fisico.sql">Arquivo com código DDL</a>
   - <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/projeto/script.sql">Arquivo com código DML</a>
 <br/>
@@ -70,7 +70,7 @@ No projeto desenvolvido, ainda, cada livro pode pertencer a 1 ou mais **autores*
 disponibilizado nos **modelos: físico; e-book; audiobook e braille**, abrangendo<br/>
 assiduamente os formatos com adaptações para acessibilidade do leitor.<br/><br/>
 
-### - Perguntas que agregam valor
+###  Perguntas que agregam valor
 
 **Pergunta 1:** Quais os produtos mais comprados por cada cliente?<br/>
 **Objetivo:** direcionar ações de marketing e promoções personalizada para cada cliente.<br/>
@@ -102,7 +102,7 @@ os discentes.<br/>
 
 ### Roteiro - Pitch 
 <br/>
-<a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a> 
+<a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
 - Inicialmente, serão apresentados alguns serviçõs escolares que a escola disponibiliza, como <br/>
 os tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável, dentre outros. <br/>
 - Posteriormente, será apresentado também o serviço de transporte escolar, e seu sistema inteligente. <br/>
@@ -118,5 +118,5 @@ além dos seus sistemas de benefícios.
   - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
   desconto para a compra do ingresso.<br/>
 - Haverá também, uma simulação de uma venda online na livraria.<br/>
-- Por fim, serão distrinchados os tipos de serviços da venda da livraria(Entrega, Retirada e Download).
+- Por fim, serão distrinchados os tipos de serviços da venda da livraria(Entrega, Retirada e Download).<br/>
   
