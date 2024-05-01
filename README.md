@@ -102,21 +102,21 @@ os discentes.<br/>
 
 ### Roteiro - Pitch 
 <br/>
-<a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
-- Inicialmente, serão apresentados alguns serviçõs escolares que a escola disponibiliza, como <br/>
-os tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável, dentre outros. <br/>
-- Posteriormente, será apresentado também o serviço de transporte escolar, e seu sistema inteligente. <br/>
-- O Controle de inadimplências desenvolvido pelo projeto, também será apresentado. <br/>
-- Por conseguinte, será apresentado a livraria online, os tipos de livros(braille, físico, E-book e audiobook)<br/>
-que possui, tipos de produto que disponibiliza, como itens de papelaria e fardamento, além de promover debates/palestras.<br/>
-- Em sequência, será mostrado os tipos de cada produto disponibilizados, como os tipos de fardamento(Infantil, ensino<br/>
-fundamental e ensino médio) e itens de papelaria(Régua, lápis, caderno, etc).
-- Será também ressaltado algumas características do debates, como o fato de poder ser presencial ou virtual,<br/>
-além dos seus sistemas de benefícios.
-- Alguns benefícios do sistema, também serão aprofundados:
-  - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
-  - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
-  desconto para a compra do ingresso.<br/>
-- Haverá também, uma simulação de uma venda online na livraria.<br/>
-- Por fim, serão distrinchados os tipos de serviços da venda da livraria(Entrega, Retirada e Download).<br/>
-  
+  <a href = "https://github.com/isadoravrx/proj2_banco_de_dados/blob/main/slide/educalivros.pdf">Apresentação</a><br/><br/>
+  - Inicialmente, serão apresentados alguns serviçõs escolares que a escola disponibiliza, como <br/>
+  os tipos de disciplinas, Sistema virtual inteligente com livraria online, cantina saudável, dentre outros. <br/>
+  - Posteriormente, será apresentado também o serviço de transporte escolar, e seu sistema inteligente. <br/>
+  - O Controle de inadimplências desenvolvido pelo projeto, também será apresentado. <br/>
+  - Por conseguinte, será apresentado a livraria online, os tipos de livros(braille, físico, E-book e audiobook)<br/>
+  que possui, tipos de produto que disponibiliza, como itens de papelaria e fardamento, além de promover debates/palestras.<br/>
+  - Em sequência, será mostrado os tipos de cada produto disponibilizados, como os tipos de fardamento(Infantil, ensino<br/>
+  fundamental e ensino médio) e itens de papelaria(Régua, lápis, caderno, etc).
+  - Será também ressaltado algumas características do debates, como o fato de poder ser presencial ou virtual,<br/>
+  além dos seus sistemas de benefícios.
+  - Alguns benefícios do sistema, também serão aprofundados:
+    - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
+    - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
+    desconto para a compra do ingresso.<br/>
+  - Haverá também, uma simulação de uma venda online na livraria.<br/>
+  - Por fim, serão distrinchados os tipos de serviços da venda da livraria(Entrega, Retirada e Download).<br/>
+    
