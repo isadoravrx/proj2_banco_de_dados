@@ -113,9 +113,9 @@ fundamental e ensino médio) e **itens de papelaria**(Régua, lápis, caderno, e
 - Será também ressaltado algumas características do **debates**, como o fato de poder ser presencial ou virtual,<br/>
 além dos seus sistemas de benefícios.
 - Alguns benefícios do sistema, também serão aprofundados(**Easter Eggs**):
-  - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.<br/>
+  - Os alunos que atingirem a compra de 5 livros no semestre ganharão um cupom com 15% de desconto na mensalidade.
   - Os alunos que participarem de uma palestra com tema de um livro já comprado/lido ganharão um cupom com 15% de<br/>
-    desconto para a compra do ingresso.<br/>
+    desconto para a compra do ingresso.
 - Haverá também, uma **ilustração de interface** de uma venda online da livraria, para mais esclarecimentos.<br/>
 - Por fim, serão destrinchados os **tipos de serviços** da venda da livraria(Entrega, Retirada e Download).<br/>
 
